@@ -1,0 +1,158 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+.header {
+}
+.header__wrapper {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo {
+    margin-right: auto;
+    font-size: 35px;
+    font-weight: 700;
+    color: brown;
+}
+.btn_link {
+    border: 1px solid #000;
+    border-radius: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(95, 31, 197);
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+}
+.btn_add {
+    border: 1px solid #000;
+    border-radius: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(12, 199, 27);
+    color: rgb(237, 100, 100);
+    margin: 0 10px;
+}
+.blog__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.reviews {
+    width: 68%;
+}
+.review__title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 38px;
+}
+.review__text {
+    font-size: 18px;
+    line-height: 24px;
+    font-style: italic;
+}
+.sidebar__reviews {
+    width: 28%;
+    padding-top: 70px;
+}
+.sidebar__title {
+    text-align: center;
+    font-size: 24px;
+}
+.review__all {
+}
+.review__all-list {
+    margin-bottom: 10px;
+}
+.review__all-link {
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+}
+.review__all-link:hover {
+    color: blue;
+}
+.active {
+    color: red;
+}
+.footer {
+}
+.footer__text {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/* login  */
+
+.login__form {
+    text-align: center;
+}
+.login__form-title {
+    font-size: 24px;
+    line-height: 27px;
+}
+.login__pass {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+.login__btn {
+    width: 150px;
+    height: 31px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background-color: cornflowerblue;
+    font-size: 18px;
+    color: #fff;
+}
+
+.error-page {
+    text-align: center;
+    width: 100%;
+}
+.error-img {
+    width: 100%;
+}
+.error-text {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: red;
+}
+.table {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-cell {
+    border: 2px solid #000;
+    padding: 10px;
+}
+.table-text {
+    width: 800px;
+}
